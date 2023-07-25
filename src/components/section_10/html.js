@@ -46,19 +46,19 @@ function Images(props){
 
             <p className={styles.details}>
                 
-                {props.el.Details_1[props.l]} <span>{props.el.Details_1_2[props.l]}</span>
+                {props.constQuality.Details_1[props.l]} <span>{props.el.Details_1[props.l]}</span>
                 <br/>
-                {props.el.Details_2[props.l]} <span>{props.el.Details_2_2[props.l]}</span>
+                {props.constQuality.Details_2[props.l]} <span>{props.el.Details_2[props.l]}</span>
                 <br/>
-                {props.el.Details_3[props.l]} <span>{props.el.Details_3_2[props.l]}</span>
+                {props.constQuality.Details_3[props.l]} <span>{props.el.Details_3[props.l]}</span>
                 <br/>
-                {props.el.Details_4[props.l]} <span>{props.el.Details_4_2[props.l]}</span>
+                {props.constQuality.Details_4[props.l]} <span>{props.el.Details_4[props.l]}</span>
                 <br/>
-                {props.el.Details_5[props.l]} <span>{props.el.Details_5_2[props.l]}</span>
+                {props.constQuality.Details_5[props.l]} <span>{props.el.Details_5[props.l]}</span>
                 <br/>
-                {props.el.Details_6[props.l]} <span>{props.el.Details_6_2[props.l]}</span>
+                {props.constQuality.Details_6[props.l]} <span>{props.el.Details_6[props.l]}</span>
                 <br/><br/>
-                <span>{props.el.Details_7[props.l]}</span>
+                <span>{props.constQuality.Details_7[props.l]}</span>
             </p>
             </>}
         </>
@@ -108,7 +108,7 @@ export default function Page(props){
                             <div className={styles.Images}>
                                 {context.ListItems.map((el,idx)=>{
                                     return(
-                                        <Images el={el} l={l} key = {idx} draw = {count === idx}/>                                   
+                                        <Images el={el} constQuality={context.constQuality} l={l} key = {idx} draw = {count === idx}/>                                   
                                     )
                                 })}
                             </div>
