@@ -31,9 +31,23 @@ export default function Page(props){
                 content={
                     <>
                        <div className={styles.wrap}>
-                            <h4>{context.Title[l]}</h4>
+                            <h4 className={styles.title}>{context.Title[l]}</h4>
 
-                            <p>{context.paragraph[l]}</p>
+                            <p className={styles.paragraph}>
+                                {context.paragraph_1[l]}
+                                <br/>
+                                {context.paragraph_2[l]}
+                                <br/>
+                                {context.paragraph_3[l]}
+                                <br/>
+                                {context.paragraph_4[l]}
+                                <br/><br/>
+
+                                {context.paragraph_5[l]}
+                                <br/>
+                                {context.paragraph_6[l]}
+                                <br/>
+                            </p>
                                
                             <div className={styles.Images2}>
                                 {context.ListItems.map((el,i)=>{

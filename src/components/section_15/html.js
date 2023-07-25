@@ -13,16 +13,17 @@ export default function Page(props){
                     <>
                        <div className={styles.wrap} id="contacts">
                             <h2>{context.Heading[l]}</h2>
-                            <p>{context.paragraph_1[l]}</p>
+                            <p className={styles.first}>{context.paragraph_1[l]}</p>
                             <p>{context.paragraph_2[l]}</p>
+                            <p>{context.paragraph_3[l]}</p>
                             <div className={styles.container}>
-                                {context.ListItems.map((el)=>{
+                                {context.ListItems.map((el,idx)=>{
                                     return <Image
                                         key={el.Title[l]}
                                         width={32}
                                         height={32}
+                                        style={idx ===1?{margin:"0px 12px",objectFit:"cover"}:{objectFit:"cover"}}
                                         src={el.imgSource}
-                                        style={{objectFit:"cover"}}
                                         alt={el.Title[l]}
                                     />
                                 })}

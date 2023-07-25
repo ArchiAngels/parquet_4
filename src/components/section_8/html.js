@@ -14,7 +14,7 @@ export default function Page(props){
                 content={
                     <>
                        <div className={styles.wrap}>
-                            <p>
+                            <p className={styles.paragraph}>
                                 <span>{context.paragraph_1[l]}</span>
                                 {context.paragraph_2[l]}
                             </p>

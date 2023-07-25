@@ -12,12 +12,25 @@
     display: flex;
 }
 .Images2 img{
-    transition: 0.4s linear;
+    transition: 0.25s linear;
 }
 .border{
     margin-right:24px;
 }
 .Images2 img:hover{
     cursor: pointer;
-    transform: scale(1.2)
+    transform: scale(1.15)
+}
+
+.title{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+
+}
+.paragraph{
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+
 }

@@ -3,11 +3,22 @@
 }
 .Left h4{
     margin-top:64px;
+
+font-size: 24px;
+font-weight: 600;
+line-height: 39px;
 }
 .Left h2{
     margin-top:30px;
+
+font-size: 32px;
+font-weight: 600;
+line-height: 39px;
 }
 .Left h3{
+        font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
     margin-top:30px;
 }
 .wrap {
@@ -18,3 +29,6 @@
     transform: scale(-1, 1);
 
 }
+
+
+

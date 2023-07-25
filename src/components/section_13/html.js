@@ -8,12 +8,10 @@ function Titles(props){
         <>
             <div 
                 className={styles.Name}
-                onClick = {()=>{props.onTimeout()}}
+                onClick = {()=>{props.onTimeout(props.id)}}
 
             >
-                {props.active? 
-                    <b>{props.name}</b>: <p>{props.name}</p>
-                }
+                <p className={props.active? styles.active: styles.nactive}>{props.name}</p>
             </div>
         </>
     )
@@ -47,7 +45,20 @@ function Images(props){
                 />        
             </div>
 
-            <p>{props.el.Details[props.l]}</p>
+            <p className={styles.details}>
+                {props.constQuality.Details_1[props.l]} <span>{props.el.Details_1[props.l]}</span>
+                <br/>
+                {props.constQuality.Details_2[props.l]} <span>{props.el.Details_2[props.l]}</span>
+                <br/>
+                {props.constQuality.Details_3[props.l]} <span>{props.el.Details_3[props.l]}</span>
+                <br/>
+                {props.constQuality.Details_4[props.l]} <span>{props.el.Details_4[props.l]}</span>
+                <br/>
+                {props.constQuality.Details_5[props.l]} <span>{props.el.Details_5[props.l]}</span>
+                <br/>
+                {props.constQuality.Details_6[props.l]} <span>{props.el.Details_6[props.l]}</span>
+                <br/><br/>
+            </p>
             </>}
         </>
     )
@@ -63,8 +74,8 @@ export default function Page(props){
     let l = props.language;
     let max = context.ListItems.length-1;
 
-    let onTimeout = () =>{
-        let tempCount = count + 1;
+    let onTimeout = (n) =>{
+        let tempCount = n;
         if(tempCount > max){
             setCount(0)
         }else{
@@ -85,6 +96,7 @@ export default function Page(props){
                                         <Titles 
                                             key = {el.Heading[l]}
                                             name = {el.Heading[l]}
+                                            id={idx}
                                             active = {count === idx}
                                             onTimeout = {onTimeout}                        
                                         />
@@ -97,7 +109,7 @@ export default function Page(props){
                             <div className={styles.Images}>
                                 {context.ListItems.map((el,idx)=>{
                                     return(
-                                        <Images el={el} l={l} key = {idx} draw = {count === idx}/>                                   
+                                        <Images el={el} l={l} key = {idx} draw = {count === idx} constQuality={context.constQuality}/>                                   
                                     )
                                 })}
                             </div>

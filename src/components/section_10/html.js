@@ -57,8 +57,8 @@ function Images(props){
                 {props.el.Details_5[props.l]} <span>{props.el.Details_5_2[props.l]}</span>
                 <br/>
                 {props.el.Details_6[props.l]} <span>{props.el.Details_6_2[props.l]}</span>
-                <br/>
-                {props.el.Details_7[props.l]}
+                <br/><br/>
+                <span>{props.el.Details_7[props.l]}</span>
             </p>
             </>}
         </>
