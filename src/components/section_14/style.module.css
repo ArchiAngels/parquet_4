@@ -53,9 +53,11 @@ margin-bottom:48px;
 
 .left{
     position: relative;
-    transform: translateX(-75%);
+    transform: translateX(-80%);
+    color:transparent;
 }
 .right{
     position: relative;
-    transform: translateX(-54%);
+    transform: translateX(-49%);
+    color:transparent;
 }
