@@ -8,12 +8,9 @@ function Titles(props){
         <>
             <div 
                 className={styles.Name}
-                onClick = {()=>{props.onTimeout()}}
-
+                onClick = {()=>{props.onTimeout(props.id)}}
             >
-                {props.active? 
-                    <b>{props.name}</b>: <p>{props.name}</p>
-                }
+                <p className={props.active? styles.active: styles.nactive}>{props.name}</p>
             </div>
         </>
     )
@@ -47,7 +44,22 @@ function Images(props){
                 />        
             </div>
 
-            <p>{props.el.Details[props.l]}</p>
+            <p className={styles.details}>
+                
+                {props.el.Details_1[props.l]} <span>{props.el.Details_1_2[props.l]}</span>
+                <br/>
+                {props.el.Details_2[props.l]} <span>{props.el.Details_2_2[props.l]}</span>
+                <br/>
+                {props.el.Details_3[props.l]} <span>{props.el.Details_3_2[props.l]}</span>
+                <br/>
+                {props.el.Details_4[props.l]} <span>{props.el.Details_4_2[props.l]}</span>
+                <br/>
+                {props.el.Details_5[props.l]} <span>{props.el.Details_5_2[props.l]}</span>
+                <br/>
+                {props.el.Details_6[props.l]} <span>{props.el.Details_6_2[props.l]}</span>
+                <br/>
+                {props.el.Details_7[props.l]}
+            </p>
             </>}
         </>
     )
@@ -57,9 +69,9 @@ function Images(props){
 export default function Page(props){
     const [count,setCount] = useState(0);
 
-    let onTimeout = () =>{
-        let tempCount = count + 1;
-        if(tempCount > 8){
+    let onTimeout = (n) =>{
+        let tempCount = n;
+        if(tempCount > (max-1)){
             setCount(0)
         }else{
             setCount(tempCount)
@@ -68,6 +80,7 @@ export default function Page(props){
 
     let context = props.texts.Text.Section_8;
     let l = props.language;
+    let max = context.ListItems.length;
     return(
         <>
             <MaxContent
@@ -82,6 +95,7 @@ export default function Page(props){
                                         <Titles 
                                             key = {el.Heading[l]}
                                             name = {el.Heading[l]}
+                                            id={idx}
                                             active = {count === idx}
                                             onTimeout = {onTimeout}                        
                                         />

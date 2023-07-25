@@ -1,11 +1,12 @@
 import MaxContent from "../maxContent/maxContent";
 import styles from './style.module.css'
-import Image from "next/image";
+import AdaptiveImage from "../adaptiveImage/adaptrive";
 
 
 export default function Page(props){
     let context = props.texts.Text.Section_6;
     let l = props.language;
+    let w = props.w;
     return(
         <>
             <MaxContent
@@ -17,11 +18,12 @@ export default function Page(props){
                                 <span>{context.paragraph_1[l]}</span>
                                 {context.paragraph_2[l]}
                             </p>
-                            <Image
+                            <AdaptiveImage
                                 width={1760}
                                 height={286}
+                                diff={160}
                                 src={context.imgSource}
-                                style={{objectFit:"cover"}}
+                                window={w}
                                 alt={"parquet scheme"}
                             />                    
                        </div>

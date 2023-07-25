@@ -6,7 +6,7 @@ function Card(props){
     return(
         <>
             <div className={styles.Card}>
-                <p>{props.title}</p>
+                <p className={styles.title}>{props.title}</p>
                 <Image
                     width={447}
                     height={218}
@@ -14,7 +14,7 @@ function Card(props){
                     // style={{objectFit:"cover"}}
                     alt={"parquet scheme"}
                 />
-                <p>{props.detail}</p>
+                <p className={styles.detail}>{props.detail}</p>
             </div>
         </>
     )
@@ -31,11 +31,11 @@ export default function Page(props){
                     <>
                        <div className={styles.wrap}>
                             <h5>{context.Title[l]}</h5>
-                            <p>
+                            <p className={styles.paragraph}>
                                 <span className={styles.active}>{context.Detail_1[l]}</span> {context.Detail_2[l]}
                             </p>    
 
-                            <div >
+                            <div className={styles.container}>
                                 {context.ListItems.map((el)=>{
                                     return <Card 
                                         key = {el.Title[l]}
