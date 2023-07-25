@@ -5,6 +5,16 @@
     margin-top:32px;
     max-width:1328px;
     margin-bottom: 80px;
+    font-weight: 400;
+    font-size:20px;
+    line-height: 24.38px;
+}
+.container h2{
+    font-weight: 700;
+    font-size:40px;
+}
+.container p{
+    
 }
 .card{
     display: flex;

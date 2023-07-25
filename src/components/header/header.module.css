@@ -4,12 +4,22 @@
     padding: 16px 0px;
     box-sizing: border-box;
     background-color: #fff;
+    line-height: 48px;
 }
-.ul{
+.logo{
+    font-size: 40px;
+    /* font-family: "MyFonts"; */
+    font-weight: 700;
+   
+}
+.Ula{
     display: flex;
+    /* font-family: "MyFonts"; */
+    font-weight: 600;
+    font-size:18px;
 }
 
-.ul > li:not(:last-child){
+.Ula > li:not(:last-child){
     margin-right:40px;
 }
 
@@ -22,4 +32,11 @@
     position: fixed;
     z-index:10;
     width:100vw;
+}
+
+.nactive{
+    color:#00000060;
+}
+.active{
+    color:#000;
 }

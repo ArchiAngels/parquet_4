@@ -1,29 +1,34 @@
 import styles from './style.module.css';
-import Image from 'next/image'
+
 import MaxContent from '../maxContent/maxContent';
 
+import AdaptiveImage from '../adaptiveImage/adaptrive';
+
 export default function Page(props){
+
+    let w = window;
     return(
         <>
             <MaxContent 
             class={styles.marginExternal}
             content = {
                 <>
-                    <h1
-                        style={{maxWidth:"1200px"}}
-                        className={styles.marginBetwennText}
-                        id="AboutUs"
-                    >
-                        {props.texts.Text.MainHeading[props.language]}
+                    <h1 className={styles.marginBetwennText}>
+                        {props.texts.Text.MainHeading_1[props.language]}
+                        <br/>
+                        {props.texts.Text.MainHeading_2[props.language]}
                     </h1>
 
-                    <Image
-                        src={props.texts.Text.MainImgSource}
-                        width={1760}
-                        height={670}
-                        style={{objectFit:"cover"}}
-                        alt="Picture of parguet"
+                    <AdaptiveImage 
+                        src={props.texts.Text.MainImgSource} 
+                        width={1760} 
+                        height={670} 
+                        diff={160} 
+                        alt={"Picture of parquet"}
+                        window={w}
                     />
+
+                    
                 </>
             }
             />

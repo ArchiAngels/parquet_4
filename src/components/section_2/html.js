@@ -1,6 +1,7 @@
 import MaxContent from "../maxContent/maxContent"
 import styles from "./style.module.css";
 import Image from "next/image";
+import AdaptiveImage from "../adaptiveImage/adaptrive";
 
 function Card(props){
     return (
@@ -27,38 +28,53 @@ function Card(props){
 
 
 export default function Page(props){
+    let w = window;
+    let context = props.texts.Text.Section_1;
+    let l = props.language;
     return(
         <>
             <MaxContent
             class={styles.marginExternal}
             content={
                 <>
-                    <h2>
-                        {props.texts.Text.Section_1.Title[props.language]}
-                    </h2>
+                    <div className={styles.container}>
+                        <h2 id="about">
+                            {context.Title[l]}
+                        </h2>
 
-                    <p className={styles.paragraph}>
-                        {props.texts.Text.Section_1.Detail[props.language]}
-                    </p>    
+                        <p className={styles.paragraph}>
+                            {context.Detail_1[l]}
+                            <br/>
+                            {context.Detail_2[l]}
+                            <br/>
+                            {context.Detail_3[l]}
+                            <br/>
+                            {context.Detail_4[l]}
+                            
+                        </p>    
 
-                    <div className={styles.wrap}>
-                        {props.texts.Text.Section_1.ListItems.map((el)=>{
-                            return <Card 
-                                key={el.Heading[props.language]}
-                                title={el.Heading[props.language]}
-                                detail={el.Detail[props.language]}
-                                src={el.imgSource}
+                        <div className={styles.wrap}>
+                            {context.ListItems.map((el)=>{
+                                return <Card 
+                                    key={el.Heading[l]}
+                                    title={el.Heading[l]}
+                                    detail={el.Detail[l]}
+                                    src={el.imgSource}
 
-                            />
-                        })}
+                                />
+                            })}
+                        </div>
                     </div>
 
-                    <Image 
-                        width={1760}
-                        height={360}
-                        src={props.texts.Text.Section_1.imgSource}
+
+                    <AdaptiveImage 
+                        src={context.imgSource} 
+                        width={1760} 
+                        height={360} 
+                        diff={160} 
                         alt={"parquet demonstation"}
                         style={{objectFit:"cover"}}
+                        window={w}
                     />
 
                 </>
