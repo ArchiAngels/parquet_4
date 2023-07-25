@@ -13,7 +13,19 @@ export default function Page(props){
                     <>
                        <div className={styles.wrap}>
                             <h5>{context.Title[l]}</h5>
-                            <p>{context.Detail[l]}</p>
+                            <p>
+                                {context.Detail_1[l]}
+                                <br/>
+                                {context.Detail_2[l]}
+                                <br/>
+                                
+                                {context.Detail_3[l]}
+                                <br/>
+                                {context.Detail_4[l]}
+                                <br/>
+                                
+                                
+                            </p>
                             <Image
                                 width={863}
                                 height={268}

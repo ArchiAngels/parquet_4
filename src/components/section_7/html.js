@@ -31,7 +31,9 @@ export default function Page(props){
                     <>
                        <div className={styles.wrap}>
                             <h5>{context.Title[l]}</h5>
-                            <p>{context.Detail[l]}</p>    
+                            <p>
+                                <span className={styles.active}>{context.Detail_1[l]}</span> {context.Detail_2[l]}
+                            </p>    
 
                             <div >
                                 {context.ListItems.map((el)=>{

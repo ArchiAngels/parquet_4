@@ -4,10 +4,20 @@
 
 .wrap h5{
     margin-bottom:24px;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+
+}
+.active{
+    color:#000;
+    font-weight: 500;
 }
 .wrap p{
     margin-bottom:60px;
     max-width:1730px;
+    color:#000;
+    font-weight:400;
 }
 .wrap div{
     display: flex;
