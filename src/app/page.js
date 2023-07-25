@@ -14,6 +14,8 @@ import NextSection7 from '@/components/section_7/html';
 import NextSection8 from '@/components/section_8/html';
 
 import NextSection9 from '@/components/section_9/html';
+
+import NextSection10 from '@/components/section_10/html';
 import React, { useState } from 'react'
 import "./globals.css"
 
@@ -44,6 +46,8 @@ export default function Main(){
       <NextSection7 language={language} texts={ru_eng}/>
       <NextSection8 language={language} texts={ru_eng}/>
       <NextSection9 language={language} texts={ru_eng}/>
+
+      <NextSection10 language={language} texts={ru_eng}/>
       <h1>{language}</h1>
     </>
   )

@@ -248,6 +248,522 @@ exports.Text = {
         },
 
         imgSource:"/images/worker.webp"
+    },
+    Section_8:{
+        ListItems:[
+            {
+                Heading:{
+                    RU:"Модуль «GP-011»",
+                    EN:""
+                },
+
+                Details:{
+                    RU:`Длина/ширина: 600х600 мм
+                    Толщина: 15 мм
+                    Конструкция: 2-ух слойный инженерный модуль
+                    Древесина верхнего слоя: Дуб
+                    Сорт: селект / рустик люкс
+                    Обработка: гладкая поверхность 
+                    
+                    * возможно изготовление данного модуля из массива`,
+                    EN:""
+                },
+                
+                DictinaryList:{
+                    photoSource:"/schemes/type_11/image 1.png",
+                    schemeSource:"/schemes/type_11/image 2.png",
+                    multipleSchemeSource:"/schemes/type_11/image 3.png"
+                },
+                
+            },
+            {
+                Heading:{
+                    RU:"Модуль «GP-012»",
+                    EN:""
+                },
+
+                Details:{
+                    RU:`Длина/ширина: 600х600 мм
+                    Толщина: 15 мм
+                    Конструкция: 2-ух слойный инженерный модуль
+                    Древесина верхнего слоя: Дуб
+                    Сорт: селект / рустик люкс
+                    Обработка: гладкая поверхность 
+                    
+                    * возможно изготовление данного модуля из массива`,
+                    EN:""
+                },
+                
+                DictinaryList:{
+                    photoSource:"/schemes/type_12/image 11.png",
+                    schemeSource:"/schemes/type_12/image 13.png",
+                    multipleSchemeSource:"/schemes/type_12/image 14.png"
+                },
+                
+            },
+            {
+                Heading:{
+                    RU:"Модуль «GP-014»",
+                    EN:""
+                },
+
+                Details:{
+                    RU:`Длина/ширина: 600х600 мм
+                    Толщина: 15 мм
+                    Конструкция: 2-ух слойный инженерный модуль
+                    Древесина верхнего слоя: Дуб
+                    Сорт: селект / рустик люкс
+                    Обработка: гладкая поверхность 
+                    
+                    * возможно изготовление данного модуля из массива`,
+                    EN:""
+                },
+                
+                DictinaryList:{
+                    photoSource:"/schemes/type_14/image 15.png",
+                    schemeSource:"/schemes/type_14/image 16.png",
+                    multipleSchemeSource:"/schemes/type_14/image 17.png"
+                },
+                
+            },
+            {
+                Heading:{
+                    RU:"Модуль «GP-015»",
+                    EN:""
+                },
+
+                Details:{
+                    RU:`Длина/ширина: 600х600 мм
+                    Толщина: 15 мм
+                    Конструкция: 2-ух слойный инженерный модуль
+                    Древесина верхнего слоя: Дуб
+                    Сорт: селект / рустик люкс
+                    Обработка: гладкая поверхность 
+                    
+                    * возможно изготовление данного модуля из массива`,
+                    EN:""
+                },
+                
+                DictinaryList:{
+                    photoSource:"/schemes/type_15/image 18.png",
+                    schemeSource:"/schemes/type_15/image 19.png",
+                    multipleSchemeSource:"/schemes/type_15/image 20.png"
+                },
+                
+            },
+            {
+                Heading:{
+                    RU:"Модуль «GP-016»",
+                    EN:""
+                },
+
+                Details:{
+                    RU:`Длина/ширина: 600х600 мм
+                    Толщина: 15 мм
+                    Конструкция: 2-ух слойный инженерный модуль
+                    Древесина верхнего слоя: Дуб
+                    Сорт: селект / рустик люкс
+                    Обработка: гладкая поверхность 
+                    
+                    * возможно изготовление данного модуля из массива`,
+                    EN:""
+                },
+                
+                DictinaryList:{
+                    photoSource:"/schemes/type_16/image 21.png",
+                    schemeSource:"/schemes/type_16/image 22.png",
+                    multipleSchemeSource:"/schemes/type_16/image 23.png"
+                },
+                
+            },
+            {
+                Heading:{
+                    RU:"Модуль «GP-017»",
+                    EN:""
+                },
+
+                Details:{
+                    RU:`Длина/ширина: 600х600 мм
+                    Толщина: 15 мм
+                    Конструкция: 2-ух слойный инженерный модуль
+                    Древесина верхнего слоя: Дуб
+                    Сорт: селект / рустик люкс
+                    Обработка: гладкая поверхность 
+                    
+                    * возможно изготовление данного модуля из массива`,
+                    EN:""
+                },
+                
+                DictinaryList:{
+                    photoSource:"/schemes/type_17/image 24.png",
+                    schemeSource:"/schemes/type_17/image 25.png",
+                    multipleSchemeSource:"/schemes/type_17/image 26.png"
+                },
+                
+            },
+            {
+                Heading:{
+                    RU:"Модуль «GP-018»",
+                    EN:""
+                },
+
+                Details:{
+                    RU:`Длина/ширина: 600х600 мм
+                    Толщина: 15 мм
+                    Конструкция: 2-ух слойный инженерный модуль
+                    Древесина верхнего слоя: Дуб
+                    Сорт: селект / рустик люкс
+                    Обработка: гладкая поверхность 
+                    
+                    * возможно изготовление данного модуля из массива`,
+                    EN:""
+                },
+                
+                DictinaryList:{
+                    photoSource:"/schemes/type_18/image 27.png",
+                    schemeSource:"/schemes/type_18/image 28.png",
+                    multipleSchemeSource:"/schemes/type_18/image 29.png"
+                },
+                
+            },
+            {
+                Heading:{
+                    RU:"Модуль «GP-019»",
+                    EN:""
+                },
+
+                Details:{
+                    RU:`Длина/ширина: 600х600 мм
+                    Толщина: 15 мм
+                    Конструкция: 2-ух слойный инженерный модуль
+                    Древесина верхнего слоя: Дуб
+                    Сорт: селект / рустик люкс
+                    Обработка: гладкая поверхность 
+                    
+                    * возможно изготовление данного модуля из массива`,
+                    EN:""
+                },
+                
+                DictinaryList:{
+                    photoSource:"/schemes/type_19/image 30.png",
+                    schemeSource:"/schemes/type_19/image 31.png",
+                    multipleSchemeSource:"/schemes/type_19/image 32.png"
+                },
+                
+            },
+            {
+                Heading:{
+                    RU:"Модуль «GP-020»",
+                    EN:""
+                },
+
+                Details:{
+                    RU:`Длина/ширина: 600х600 мм
+                    Толщина: 15 мм
+                    Конструкция: 2-ух слойный инженерный модуль
+                    Древесина верхнего слоя: Дуб
+                    Сорт: селект / рустик люкс
+                    Обработка: гладкая поверхность 
+                    
+                    * возможно изготовление данного модуля из массива`,
+                    EN:""
+                },
+                
+                DictinaryList:{
+                    photoSource:"/schemes/type_20/image 33.png",
+                    schemeSource:"/schemes/type_20/image 34.png",
+                    multipleSchemeSource:"/schemes/type_20/image 35.png"
+                },
+                
+            },
+        ]
+    },
+    Section_9:{
+        Title:{
+            RU:"Модули из массива",
+            EN:"",            
+        },
+        Heading:{
+            RU:"SOLID",
+            EN:"",            
+        },
+        paragraph:{
+            RU:"ОСНОВНАЯ ЛИНЕЙКА",
+            EN:""
+        },
+        imgSource:"/images/parquetExamples.webp"
+    },
+    Section_10:{
+        Title:{
+            RU:"Технология изготовления: модуль паркетный из массива",
+            EN:"",
+        },
+        paragraph:{
+            RU:`На сегодняшний день мы производим пильные модульные щиты на основе массивного паркета.
+            Это позволяет создавать необычные паркетные рисунки из простого штучного паркета за минимальный срок и с минимальными затратами.
+            Нарезка рисунка происходит вручную на круглопильных станках с каретками. Преимущества ручной распиловки - в быстрой перенастройке станка,
+            что уменьшает временные затраты путем подбора индивидуального размера для каждой партии материала в зависимости от ширины заготовки и породы древесины.
+            
+            После сборки деталей по эскизу в шаблон с целью надежного скрепления элементов рисунка мы используем технологию скобирования деталей модуля
+            между собой для удержания и создания прочного полотна паркетного щита`,
+            EN:""
+        },
+        ListItems:[
+            {imgSource:"/section_10/image 4.png"},
+            {imgSource:"/section_10/image 5.png"},
+            {imgSource:"/section_10/image 6.png"},
+            {imgSource:"/section_10/image 7.png"},
+            {imgSource:"/section_10/resize-image-online 1.png"},
+        ]
+
+    },
+    Section_11:{
+        ListItems:[
+            {
+                Details:{
+                    RU:`Длина/ширина: 328х328 мм
+                    Толщина: 15 мм
+                    Конструкция: Модуль из массива
+                    Древесина верхнего слоя: Дуб
+                    Сорт: селект
+                    Обработка: гладкая поверхность `,
+                    EN:"",
+
+                },
+                Heading:{
+                    RU:"Модуль «GP-001-S»",
+                    EN:""
+                },
+                DictinaryList:{
+                    photoSource:"/scheme_type_s/01s/image 1(1).png",
+                    schemeSource:"/scheme_type_s/01s/image 2(1).png",
+                    multipleSchemeSource:"/scheme_type_s/01s/image 3(1).png"
+                },
+            },
+            {
+                Details:{
+                    RU:`Длина/ширина: 288х288 мм
+                    Толщина: 15 мм
+                    Конструкция: Модуль из массива
+                    Древесина верхнего слоя: Дуб
+                    Сорт: селект
+                    Обработка: гладкая поверхность  `,
+                    EN:"",
+
+                },
+                Heading:{
+                    RU:"Модуль «GP-002-S»",
+                    EN:""
+                },
+                DictinaryList:{
+                    photoSource:"/scheme_type_s/02s/image 1(2).png",
+                    schemeSource:"/scheme_type_s/02s/image 2(2).png",
+                    multipleSchemeSource:"/scheme_type_s/02s/image 3(2).png"
+                },
+            },
+            {
+                Details:{
+                    RU:`Длина/ширина: 336х336 мм
+                    Толщина: 15 мм
+                    Конструкция: Модуль из массива
+                    Древесина верхнего слоя: Дуб, Клен, Термоясень
+                    Сорт: селект
+                    Обработка: гладкая поверхность  `,
+                    EN:"",
+
+                },
+                Heading:{
+                    RU:"Модуль «GP-054-S»",
+                    EN:""
+                },
+                DictinaryList:{
+                    photoSource:"/scheme_type_s/54s/image 7.png",
+                    schemeSource:"/scheme_type_s/54s/image 8.png",
+                    multipleSchemeSource:"/scheme_type_s/54s/image 9.png"
+                },
+            },
+            {
+                Details:{
+                    RU:`Длина/ширина: 300х300 мм
+                    Толщина: 15 мм
+                    Конструкция: Модуль из массива
+                    Древесина верхнего слоя: Дуб
+                    Сорт: селект
+                    Обработка: гладкая поверхность `,
+                    EN:"",
+
+                },
+                Heading:{
+                    RU:"Модуль «GP-053-S»",
+                    EN:""
+                },
+                DictinaryList:{
+                    photoSource:"/scheme_type_s/53s/image 4.png",
+                    schemeSource:"/scheme_type_s/53s/image 5.png",
+                    multipleSchemeSource:"/scheme_type_s/53s/image 6.png"
+                },
+            }
+        ]
+    },
+    Section_12:{
+        Heading:{
+            RU:"ПРИМЕРЫ НАШИХ РАБОТ",
+            EN:""
+        },        
+
+        ListItems:[
+            {
+                imgSource:"/portfolio/image 8(1).png",
+                paragraph:{
+                    RU:`Модульный художественный паркет для галереи Тызенгауза в Гродно.
+                    Массив дуба в сочетании с термоясенем и термодубом.`,
+                    EN:""
+                },
+            },
+            {
+                imgSource:"/portfolio/image 8(2).png",
+                paragraph:{
+                    RU:`Модульный художественный паркет с вензелем из ореха
+                    американского и фрагментарным глянцеванием`,
+                    EN:""
+                },
+            },
+            {
+                imgSource:"/portfolio/image 9(2).png",
+                paragraph:{
+                    RU:`Модули со вставками из металла и с фрагментарной покраской в другой цвет
+                    с использованием состаривания и глянцевания`,
+                    EN:""
+                },
+            },
+            {
+                imgSource:"/portfolio/image 10(1).png",
+                paragraph:{
+                    RU:`Модульный паркет со вставками
+                    из мрамора Roza Perlino`,
+                    EN:""
+                },
+            },
+            {
+                imgSource:"/portfolio/image 11(1).png",
+                paragraph:{
+                    RU:`Модульный паркет геометрический.
+                    Сочетание дуба и ореха американского.`,
+                    EN:""
+                },
+            },
+            {
+                imgSource:"/portfolio/image 12.png",
+                paragraph:{
+                    RU:`Модульный паркет дуб 600х600х15,
+                    браш, цвет Black Smoke`,
+                    EN:""
+                },
+            },
+            {
+                imgSource:"/portfolio/image 13(1).png",
+                paragraph:{
+                    RU:`Модульный паркет, аналог итальянского Listone Giordano,
+                    VIP зона Бизнес-аэропорта г. Минск`,
+                    EN:""
+                },
+            },
+            {
+                imgSource:"/portfolio/image 14(1).png",
+                paragraph:{
+                    RU:`Пол и потолок.
+                    Частные аппартаменты, г. Москва`,
+                    EN:""
+                },
+            },
+            {
+                imgSource:"/portfolio/image 15(1).png",
+                paragraph:{
+                    RU:`Модульный художественный паркет
+                    с фризом и обкладкой`,
+                    EN:""
+                },
+            },
+            {
+                imgSource:"/portfolio/image 16(1).png",
+                paragraph:{
+                    RU:`Художественный паркет. Розетка в обкладке
+                    из французской елки в сорте «Селект»`,
+                    EN:""
+                },
+            },
+            {
+                imgSource:"/portfolio/image 17(1).png",
+                paragraph:{
+                    RU:`Французская елка из Дуба,
+                    цвет «Коньячный»`,
+                    EN:""
+                },
+            },
+            {
+                imgSource:"/portfolio/image 18(1).png",
+                paragraph:{
+                    RU:`Французская елка
+                    из отбеленного дуба`,
+                    EN:""
+                },
+            },
+            {
+                imgSource:"/portfolio/image 19(1).png",
+                paragraph:{
+                    RU:`Французская елка
+                    из ореха американского`,
+                    EN:""
+                },
+            },
+            {
+                imgSource:"/portfolio/image 20(1).png",
+                paragraph:{
+                    RU:`Геометрический модуль орех американский.
+                    Аналог итальянского Foglie D'oro`,
+                    EN:""
+                },
+            }
+        ]
+    },
+
+    Section_13:{
+        Heading:{
+            RU:"КОНТАКТЫ",
+            EN:""
+        },
+        paragraph_1:{
+            RU:"global-parquet@yandex.ru",
+            EN:""
+        },
+        paragraph_2:{
+            RU:`+375 29 608 58 70
+            +375 29 119 777 1`,
+            EN:``
+        },
+        ListItems:[
+            {
+                Title:{
+                    RU:"Telegram",
+                    EN:""
+                },
+                imgSource:"/socials/telegram 1.png"
+            },
+            {
+                Title:{
+                    RU:"Viber",
+                    EN:""
+                },
+                imgSource:"/socials/viber (1) 1.png"
+            },
+            {
+                Title:{
+                    RU:"Whatsaap",
+                    EN:""
+                },
+                imgSource:"/socials/whatsapp (1) 1.png"
+            }
+        ]
     }
     
 }
