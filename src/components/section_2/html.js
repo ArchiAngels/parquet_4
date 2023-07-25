@@ -41,7 +41,7 @@ export default function Page(props){
                         {props.texts.Text.Section_1.Detail[props.language]}
                     </p>    
 
-                    <div className={styles.wrap} id="AboutUs">
+                    <div className={styles.wrap}>
                         {props.texts.Text.Section_1.ListItems.map((el)=>{
                             return <Card 
                                 key={el.Heading[props.language]}
