@@ -26,7 +26,7 @@ import NextSection13 from '@/components/section_13/html';
 import NextSection14 from '@/components/section_14/html';
 
 import NextSection15 from '@/components/section_15/html';
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import "./globals.css"
 
 
@@ -34,6 +34,13 @@ import "./globals.css"
 export default function Main(){
 
   const [language, setLanguage] = useState("RU");
+  const [w,setW] = useState(null)
+
+  
+  useEffect(()=>{
+    setW(window);
+  },[])
+  
 
   let onRus = () => {
     setLanguage("RU")
@@ -42,32 +49,33 @@ export default function Main(){
     setLanguage("EN")
   }
 
-  return(
+  if(w != null)return(
     <>
 
       <Header onEng={onEng} onRus={onRus} language={language} texts={ru_eng}></Header>
 
-      <NextSection language={language} texts={ru_eng}/>
-      <NextSection2 language={language} texts={ru_eng}/>
-      <NextSection3 language={language} texts={ru_eng}/>
-      <NextSection4 language={language} texts={ru_eng}/>
-      <NextSection5 language={language} texts={ru_eng}/>
-      <NextSection6 language={language} texts={ru_eng}/>
-      <NextSection7 language={language} texts={ru_eng}/>
-      <NextSection8 language={language} texts={ru_eng}/>
-      <NextSection9 language={language} texts={ru_eng}/>
+      <NextSection language={language} texts={ru_eng} w={w}/>
+      <NextSection2 language={language} texts={ru_eng} w={w}/>
+      <NextSection3 language={language} texts={ru_eng} w={w}/>
+      <NextSection4 language={language} texts={ru_eng} w={w}/>
+      <NextSection5 language={language} texts={ru_eng} w={w}/>
+      <NextSection6 language={language} texts={ru_eng} w={w}/>
+      <NextSection7 language={language} texts={ru_eng} w={w}/>
+      <NextSection8 language={language} texts={ru_eng} w={w}/>
+      <NextSection9 language={language} texts={ru_eng} w={w}/>
 
-      <NextSection10 language={language} texts={ru_eng}/>
+      <NextSection10 language={language} texts={ru_eng} w={w}/>
 
-      <NextSection11 language={language} texts={ru_eng}/>
+      <NextSection11 language={language} texts={ru_eng} w={w}/>
 
-      <NextSection12 language={language} texts={ru_eng}/>
+      <NextSection12 language={language} texts={ru_eng} w={w}/>
 
-      <NextSection13 language={language} texts={ru_eng}/>
+      <NextSection13 language={language} texts={ru_eng} w={w}/>
 
-      <NextSection14 language={language} texts={ru_eng}/>
+      <NextSection14 language={language} texts={ru_eng} w={w}/>
 
-      <NextSection15 language={language} texts={ru_eng}/>
+      <NextSection15 language={language} texts={ru_eng} w={w}/>
     </>
-  )
+  ) 
+  else return <p>loading...</p>
 }

@@ -5,8 +5,9 @@ import MaxContent from '../maxContent/maxContent';
 import AdaptiveImage from '../adaptiveImage/adaptrive';
 
 export default function Page(props){
-
-    let w = window;
+    let context = props.texts.Text;
+    let l = props.language;
+    let w = props.w;
     return(
         <>
             <MaxContent 
@@ -14,13 +15,13 @@ export default function Page(props){
             content = {
                 <>
                     <h1 className={styles.marginBetwennText}>
-                        {props.texts.Text.MainHeading_1[props.language]}
+                        {context.MainHeading_1[l]}
                         <br/>
-                        {props.texts.Text.MainHeading_2[props.language]}
+                        {context.MainHeading_2[l]}
                     </h1>
 
                     <AdaptiveImage 
-                        src={props.texts.Text.MainImgSource} 
+                        src={context.MainImgSource} 
                         width={1760} 
                         height={670} 
                         diff={160} 

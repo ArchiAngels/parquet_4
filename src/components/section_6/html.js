@@ -5,7 +5,7 @@ import AdaptiveImage from "../adaptiveImage/adaptrive";
 export default function Page(props){
     let context = props.texts.Text.Section_5;
     let l = props.language;
-    let w = window;
+    let w = props.w;
     return(
         <>
             <MaxContent

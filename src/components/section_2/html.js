@@ -28,7 +28,7 @@ function Card(props){
 
 
 export default function Page(props){
-    let w = window;
+    let w = props.w;
     let context = props.texts.Text.Section_1;
     let l = props.language;
     return(
