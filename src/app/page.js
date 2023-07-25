@@ -9,7 +9,7 @@ import "./globals.css"
 
 
 
-export default function main(){
+export default function Main(){
 
   const [language, setLanguage] = useState("RU");
 
