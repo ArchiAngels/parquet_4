@@ -121,7 +121,7 @@ exports.Text = {
             RU:`Инженерные модули`,
             EN:""
         },
-        Heading_4:{
+        Heading:{
             RU:"GEOMETRY & ART",
             EN:""
         },
@@ -133,7 +133,7 @@ exports.Text = {
             RU:"ОСНОВНАЯ ЛИНЕЙКА",
             EN:""
         },
-        imgSource:""
+        imgSource:"/images/parquetExamples.webp"
     },
 
     Section_4:{
