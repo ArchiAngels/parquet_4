@@ -6,6 +6,7 @@ export default function Page(props){
     let l = props.language;
     return(
         <>
+            <span id="products"></span>
             <MaxContent
                 class={styles.marginExternal}
                 content={

@@ -33,12 +33,13 @@ export default function Page(props){
     let l = props.language;
     return(
         <>
+            <span id="about"></span>
             <MaxContent
             class={styles.marginExternal}
             content={
                 <>
                     <div className={styles.container}>
-                        <h2 id="about">
+                        <h2>
                             {context.Title[l]}
                         </h2>
 

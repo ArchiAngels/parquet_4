@@ -87,7 +87,7 @@ export default function Page(props){
                 class={styles.marginExternal}
                 content={
                     <>
-                       <div className={styles.wrap} id="products">
+                       <div className={styles.wrap}>
                             <div className={styles.ListContainer}>
 
                                 {context.ListItems.map((el,idx)=>{

@@ -97,11 +97,12 @@ export default function Page(props){
     }
     return(
         <>
+            <span id="gallery"></span>
             <MaxContent
                 class={styles.marginExternal}
                 content={
                     <>
-                       <div className={styles.wrap} id="gallery">
+                       <div className={styles.wrap}>
                             <h2 className={styles.title}>{context.Heading[l]}</h2>
 
                             <div className={styles.ListContainer}>

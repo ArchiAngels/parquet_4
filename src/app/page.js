@@ -2,6 +2,8 @@
 
 import ru_eng from "@/ru_eng";
 import Header from "@/components/header/header";
+import { ParallaxProvider } from 'react-scroll-parallax';
+
 import NextSection from '@/components/section_1/html';
 import NextSection2 from '@/components/section_2/html';
 import NextSection3 from '@/components/section_3/html';
@@ -51,30 +53,29 @@ export default function Main(){
 
   if(w != null)return(
     <>
+        <Header onEng={onEng} onRus={onRus} language={language} texts={ru_eng}></Header>
 
-      <Header onEng={onEng} onRus={onRus} language={language} texts={ru_eng}></Header>
+        <NextSection language={language} texts={ru_eng} w={w}/>
+        <NextSection2 language={language} texts={ru_eng} w={w}/>
+        <NextSection3 language={language} texts={ru_eng} w={w}/>
+        <NextSection4 language={language} texts={ru_eng} w={w}/>
+        <NextSection5 language={language} texts={ru_eng} w={w}/>
+        <NextSection6 language={language} texts={ru_eng} w={w}/>
+        <NextSection7 language={language} texts={ru_eng} w={w}/>
+        <NextSection8 language={language} texts={ru_eng} w={w}/>
+        <NextSection9 language={language} texts={ru_eng} w={w}/>
 
-      <NextSection language={language} texts={ru_eng} w={w}/>
-      <NextSection2 language={language} texts={ru_eng} w={w}/>
-      <NextSection3 language={language} texts={ru_eng} w={w}/>
-      <NextSection4 language={language} texts={ru_eng} w={w}/>
-      <NextSection5 language={language} texts={ru_eng} w={w}/>
-      <NextSection6 language={language} texts={ru_eng} w={w}/>
-      <NextSection7 language={language} texts={ru_eng} w={w}/>
-      <NextSection8 language={language} texts={ru_eng} w={w}/>
-      <NextSection9 language={language} texts={ru_eng} w={w}/>
+        <NextSection10 language={language} texts={ru_eng} w={w}/>
 
-      <NextSection10 language={language} texts={ru_eng} w={w}/>
+        <NextSection11 language={language} texts={ru_eng} w={w}/>
 
-      <NextSection11 language={language} texts={ru_eng} w={w}/>
+        <NextSection12 language={language} texts={ru_eng} w={w}/>
 
-      <NextSection12 language={language} texts={ru_eng} w={w}/>
+        <NextSection13 language={language} texts={ru_eng} w={w}/>
 
-      <NextSection13 language={language} texts={ru_eng} w={w}/>
+        <NextSection14 language={language} texts={ru_eng} w={w}/>
 
-      <NextSection14 language={language} texts={ru_eng} w={w}/>
-
-      <NextSection15 language={language} texts={ru_eng} w={w}/>
+        <NextSection15 language={language} texts={ru_eng} w={w}/>
     </>
   ) 
   else return <p>loading...</p>
