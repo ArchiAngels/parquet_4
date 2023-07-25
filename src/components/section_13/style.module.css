@@ -1,0 +1,20 @@
+.marginExternal{
+    margin-top:100px;
+}
+.Name{
+    position: relative;
+}
+.ListContainer{
+    display: flex;
+    justify-content: space-between;
+}
+.ListContainer div{
+    cursor: pointer;
+}
+.Images p {
+    max-width: 573px;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+}

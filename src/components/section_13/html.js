@@ -57,24 +57,27 @@ function Images(props){
 export default function Page(props){
     const [count,setCount] = useState(0);
 
+    
+
+    let context = props.texts.Text.Section_11;
+    let l = props.language;
+    let max = context.ListItems.length-1;
+
     let onTimeout = () =>{
         let tempCount = count + 1;
-        if(tempCount > 8){
+        if(tempCount > max){
             setCount(0)
         }else{
             setCount(tempCount)
         }
     }
-
-    let context = props.texts.Text.Section_8;
-    let l = props.language;
     return(
         <>
             <MaxContent
                 class={styles.marginExternal}
                 content={
                     <>
-                       <div className={styles.wrap} id="products">
+                       <div className={styles.wrap}>
                             <div className={styles.ListContainer}>
 
                                 {context.ListItems.map((el,idx)=>{

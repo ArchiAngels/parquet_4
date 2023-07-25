@@ -509,11 +509,11 @@ exports.Text = {
             EN:""
         },
         ListItems:[
-            {imgSource:"/section_10/image 4.png"},
-            {imgSource:"/section_10/image 5.png"},
-            {imgSource:"/section_10/image 6.png"},
-            {imgSource:"/section_10/image 7.png"},
-            {imgSource:"/section_10/resize-image-online 1.png"},
+            {imgSource:"/section_10/image 4.png",x:238,y:526},
+            {imgSource:"/section_10/image 5.png",x:238,y:526},
+            {imgSource:"/section_10/image 6.png",x:256,y:526},
+            {imgSource:"/section_10/image 7.png",x:499,y:526},
+            {imgSource:"/section_10/resize-image-online 1.png",x:249,y:526},
         ]
 
     },
@@ -563,6 +563,27 @@ exports.Text = {
             },
             {
                 Details:{
+                    RU:`Длина/ширина: 300х300 мм
+                    Толщина: 15 мм
+                    Конструкция: Модуль из массива
+                    Древесина верхнего слоя: Дуб
+                    Сорт: селект
+                    Обработка: гладкая поверхность `,
+                    EN:"",
+
+                },
+                Heading:{
+                    RU:"Модуль «GP-053-S»",
+                    EN:""
+                },
+                DictinaryList:{
+                    photoSource:"/scheme_type_s/53s/image 4.png",
+                    schemeSource:"/scheme_type_s/53s/image 5.png",
+                    multipleSchemeSource:"/scheme_type_s/53s/image 6.png"
+                },
+            },
+            {
+                Details:{
                     RU:`Длина/ширина: 336х336 мм
                     Толщина: 15 мм
                     Конструкция: Модуль из массива
@@ -582,27 +603,7 @@ exports.Text = {
                     multipleSchemeSource:"/scheme_type_s/54s/image 9.png"
                 },
             },
-            {
-                Details:{
-                    RU:`Длина/ширина: 300х300 мм
-                    Толщина: 15 мм
-                    Конструкция: Модуль из массива
-                    Древесина верхнего слоя: Дуб
-                    Сорт: селект
-                    Обработка: гладкая поверхность `,
-                    EN:"",
-
-                },
-                Heading:{
-                    RU:"Модуль «GP-053-S»",
-                    EN:""
-                },
-                DictinaryList:{
-                    photoSource:"/scheme_type_s/53s/image 4.png",
-                    schemeSource:"/scheme_type_s/53s/image 5.png",
-                    multipleSchemeSource:"/scheme_type_s/53s/image 6.png"
-                },
-            }
+            
         ]
     },
     Section_12:{

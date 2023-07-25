@@ -1,0 +1,25 @@
+.marginExternal{
+    margin-top:180px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.current{
+    display: flex;
+    flex-direction: column;
+}
+.current p {
+    max-width: 700px;
+}
+.container p {
+    max-width:400px;
+}
+.ListContainer{
+    display: flex;
+    justify-content: space-between;
+
+}
+.wrap h2{
+    text-align: center;
+}

@@ -3,6 +3,7 @@
     justify-content: space-between;
     padding: 16px 0px;
     box-sizing: border-box;
+    background-color: #fff;
 }
 .ul{
     display: flex;
@@ -19,5 +20,6 @@
     transform: translateX(-50%);
     left:50%;
     position: fixed;
+    z-index:10;
     width:100vw;
 }

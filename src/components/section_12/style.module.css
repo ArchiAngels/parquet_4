@@ -1,0 +1,23 @@
+.marginExternal{
+    margin-top:90px;
+}
+.border{
+    overflow: hidden;
+}
+.wrap p{
+    margin-top:24px;
+    margin-bottom:24px;
+}
+.Images2{
+    display: flex;
+}
+.Images2 img{
+    transition: 0.4s linear;
+}
+.border{
+    margin-right:24px;
+}
+.Images2 img:hover{
+    cursor: pointer;
+    transform: scale(1.2)
+}

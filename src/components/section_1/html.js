@@ -12,6 +12,7 @@ export default function Page(props){
                     <h1
                         style={{maxWidth:"1200px"}}
                         className={styles.marginBetwennText}
+                        id="AboutUs"
                     >
                         {props.texts.Text.MainHeading[props.language]}
                     </h1>

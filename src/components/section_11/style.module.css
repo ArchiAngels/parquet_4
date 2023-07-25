@@ -1,0 +1,20 @@
+.marginExternal{
+    margin-top:90px;
+}
+.Left h4{
+    margin-top:64px;
+}
+.Left h2{
+    margin-top:30px;
+}
+.Left h3{
+    margin-top:30px;
+}
+.wrap {
+   display: flex;
+   justify-content: space-between;
+}
+.wrap Img{
+    transform: scale(-1, 1);
+
+}

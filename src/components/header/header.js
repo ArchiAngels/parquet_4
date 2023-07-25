@@ -15,27 +15,27 @@ export default function HeaderComponent(props){
                 <nav>
                     <ul className={styles.ul}>
                         <li>
-                            <p>{props.texts.Text.Header.AboutUs[props.language]}</p>
+                            <a href="#AboutUs">{props.texts.Text.Header.AboutUs[props.language]}</a>
                         </li>
 
                         <li>
-                            <p>{props.texts.Text.Header.Products[props.language]}</p>
+                            <a href="#products">{props.texts.Text.Header.Products[props.language]}</a>
                         </li>
 
                         <li>
-                            <p>{props.texts.Text.Header.Gallery[props.language]}</p>
+                            <a href="#gallery">{props.texts.Text.Header.Gallery[props.language]}</a>
                         </li>
 
                         <li>
-                            <p>{props.texts.Text.Header.Contact[props.language]}</p>
+                            <a href="#contacts">{props.texts.Text.Header.Contact[props.language]}</a>
                         </li>
                     </ul>
                 </nav>
 
 
                 <div>   
-                    <ButtonComponent text="RUS" onClick={props.onRus} className={styles.spacer_right}/>
-                    <ButtonComponent text="ENG" onClick={props.onEng}/>
+                    <ButtonComponent text="RUS" onClick={()=>{}} className={styles.spacer_right}/>
+                    <ButtonComponent text="ENG" onClick={()=>{}} />
                 </div>
             </header>
         }/>
