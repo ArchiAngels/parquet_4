@@ -50,7 +50,7 @@ exports.Text = {
                     на посредников и излишний персонал.`,
                     EN:""
                 },
-                imgSource:""
+                imgSource:"/images/icon/handshake.webp"
             },
 
             {
@@ -63,7 +63,7 @@ exports.Text = {
                     создавая эксклюзивные напольные покрытия.`,
                     EN:""
                 },
-                imgSource:""
+                imgSource:"/images/icon/design.webp"
             },
 
             {
@@ -76,7 +76,7 @@ exports.Text = {
                     Наша ценовая политика всегда адаптируется к потребностям заказчика.`,
                     EN:""
                 },
-                imgSource:""
+                imgSource:"/images/icon/price.webp"
             },
 
             {
@@ -89,7 +89,7 @@ exports.Text = {
                     могли быть уверены в долгосрочном качестве и надежности наших продуктов.`,
                     EN:""
                 },
-                imgSource:""
+                imgSource:"/images/icon/certificat.webp"
             },
         ],
         imgSource:"/images/room.webp"
