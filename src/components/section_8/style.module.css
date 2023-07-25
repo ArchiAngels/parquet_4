@@ -1,0 +1,9 @@
+.marginExternal{
+    margin-top:60px;
+}
+.wrap p{
+    margin-bottom:60px;
+}
+.wrap p span{
+    font-weight: bold;
+}

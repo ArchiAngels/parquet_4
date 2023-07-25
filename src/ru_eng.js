@@ -149,7 +149,7 @@ exports.Text = {
             EN:""
         },
 
-        imgSource:""
+        imgSource:"/images/scheme.webp"
 
     },
 
@@ -196,7 +196,7 @@ exports.Text = {
                     EN:""
                 },
 
-                imgSource:""
+                imgSource:"/images/sortA.webp"
             },
 
             {
@@ -214,12 +214,12 @@ exports.Text = {
                     EN:""
                 },
 
-                imgSource:""
+                imgSource:"/images/sortBC.webp"
             }
         ],
 
         paragraph_1:{
-            RU:"Нижний слой -",
+            RU:"Нижний слой - ",
             EN:""
         },
         paragraph_2:{

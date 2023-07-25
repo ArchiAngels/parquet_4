@@ -1,0 +1,26 @@
+.marginExternal{
+    margin-top:100px;
+}
+
+.wrap h5{
+    margin-bottom:24px;
+}
+.wrap p{
+    margin-bottom:60px;
+    max-width:1730px;
+}
+.wrap div{
+    display: flex;
+}
+.Card{
+    margin-right:367px;
+    display: flex;
+    flex-direction: column;
+}
+.Card Img{
+    margin-top:18px;
+    margin-bottom:24px;
+}
+.Card p{
+    max-width: 447px;
+}
