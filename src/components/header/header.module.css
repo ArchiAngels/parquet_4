@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 0px;
+    box-sizing: border-box;
+}
+.ul{
+    display: flex;
+}
+
+.ul > li:not(:last-child){
+    margin-right:40px;
+}
+
+.spacer_right{
+    margin-right:40px;
+}
+.fixed{
+    transform: translateX(50%);
+    position: fixed;
+    width:100vw;
+}

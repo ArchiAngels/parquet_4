@@ -87,12 +87,6 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
 }
 
 a {
@@ -104,4 +98,25 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+button{
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+ul{
+  list-style: none;
+}
+li{
+  cursor: pointer;
+}
+
+.max-content{
+  max-width: 1920px;
+  margin-left: auto;
+  margin-right: auto;
+  padding:0px 80px;
+  box-sizing: border-box;
 }
